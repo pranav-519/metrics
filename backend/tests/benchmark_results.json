@@ -1,0 +1,276 @@
+{
+  "images_tested": 12,
+  "results": [
+    {
+      "id": "VAL_01_GOOD",
+      "condition": "GOOD",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 3348.21,
+      "glare_score": 85.86,
+      "tokens": 14,
+      "avg_conf": 0.995,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 10892.1
+    },
+    {
+      "id": "VAL_02_BLUR_MILD",
+      "condition": "BLUR_MILD",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 198.19,
+      "glare_score": 78.52,
+      "tokens": 14,
+      "avg_conf": 0.998,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 9609.3
+    },
+    {
+      "id": "VAL_03_BLUR_MODERATE",
+      "condition": "BLUR_MODERATE",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 4.61,
+      "glare_score": 70.04,
+      "tokens": 14,
+      "avg_conf": 0.982,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "15.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 8505.8
+    },
+    {
+      "id": "VAL_04_BLUR_SEVERE",
+      "condition": "BLUR_SEVERE",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 0.74,
+      "glare_score": 64.3,
+      "tokens": 1,
+      "avg_conf": 0.668,
+      "attempts": 2,
+      "preprocessed_used": true,
+      "mrp_extracted": null,
+      "net_qty_extracted": null,
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 8023.8
+    },
+    {
+      "id": "VAL_05_GLARE_MILD",
+      "condition": "GLARE_MILD",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 3247.06,
+      "glare_score": 85.86,
+      "tokens": 14,
+      "avg_conf": 0.995,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 10293.0
+    },
+    {
+      "id": "VAL_06_GLARE_OVER_MRP",
+      "condition": "GLARE_MRP",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 2768.85,
+      "glare_score": 85.91,
+      "tokens": 14,
+      "avg_conf": 0.997,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 10650.7
+    },
+    {
+      "id": "VAL_07_LIGHTING_DARK",
+      "condition": "LIGHTING_DARK",
+      "quality": "ImageQualityStatus.GOOD",
+      "blur_score": 479.0,
+      "glare_score": 0.0,
+      "tokens": 14,
+      "avg_conf": 0.997,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 13310.5
+    },
+    {
+      "id": "VAL_08_LIGHTING_OVEREXPOSED",
+      "condition": "LIGHTING_OVEREXPOSED",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 3507.22,
+      "glare_score": 88.68,
+      "tokens": 14,
+      "avg_conf": 0.99,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 17089.3
+    },
+    {
+      "id": "VAL_09_LIGHTING_UNEVEN",
+      "condition": "LIGHTING_UNEVEN",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 2150.72,
+      "glare_score": 33.4,
+      "tokens": 14,
+      "avg_conf": 0.995,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 10587.0
+    },
+    {
+      "id": "VAL_10_PERSPECTIVE_TILT",
+      "condition": "PERSPECTIVE_TILT",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 1683.92,
+      "glare_score": 77.18,
+      "tokens": 14,
+      "avg_conf": 0.996,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 10128.2
+    },
+    {
+      "id": "VAL_11_SMALL_TEXT",
+      "condition": "SMALL_TEXT",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 3647.66,
+      "glare_score": 84.77,
+      "tokens": 14,
+      "avg_conf": 0.997,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 9440.4
+    },
+    {
+      "id": "VAL_12_DISTRACTORS",
+      "condition": "DISTRACTORS",
+      "quality": "ImageQualityStatus.POOR",
+      "blur_score": 3595.33,
+      "glare_score": 85.06,
+      "tokens": 17,
+      "avg_conf": 0.982,
+      "attempts": 1,
+      "preprocessed_used": false,
+      "mrp_extracted": "299.00",
+      "net_qty_extracted": "5 kg",
+      "compliance_status": "NON_COMPLIANT",
+      "latency_ms": 12133.9
+    }
+  ],
+  "confidences": {
+    "min": 0.6681,
+    "max": 1.0,
+    "mean": 0.9908727848101266,
+    "median": 0.9993
+  },
+  "latencies_ms": {
+    "quality": 13.74927500000922,
+    "ocr": 10873.912974999863,
+    "extraction": 0.8399833332077833,
+    "compliance": 0.14803333336506816,
+    "total": 10888.669541666482
+  },
+  "field_detection_counts": {
+    "PRODUCT_NAME": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "MRP": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "NET_QUANTITY": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "MANUFACTURING_DATE": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "PACKING_DATE": {
+      "found": 0,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "EXPIRY_DATE": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "BEST_BEFORE": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "MANUFACTURER": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "PACKER": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "IMPORTER": {
+      "found": 0,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "CONSUMER_CARE": {
+      "found": 11,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    },
+    "COUNTRY_OF_ORIGIN": {
+      "found": 10,
+      "missed": 0,
+      "incorrect": 0,
+      "unreadable": 0
+    }
+  },
+  "spatial_evidence": {
+    "valid_fraction": 1.0,
+    "total_tokens": 158
+  }
+}

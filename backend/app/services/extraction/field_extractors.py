@@ -241,8 +241,14 @@ class ModularFieldExtractors:
                         )
 
         # 3. Fallback: bare quantity in single box when no label exists
+        nutritional_distractor_regex = re.compile(
+            r'\b(?:carb(?:ohydrate)?s?|protein|fat|sugar|serving|energy|cholesterol|sodium|nutrient|nutrition|per\s+\d+)\b',
+            re.IGNORECASE
+        )
         for box in boxes:
             text = box.get("text", "")
+            if nutritional_distractor_regex.search(text):
+                continue
             match = val_unit_regex.search(text)
             if match:
                 num_str, raw_unit = match.group(1), match.group(2)
@@ -297,13 +303,16 @@ class ModularFieldExtractors:
 
         # Scan for explicit contextual dates
         matched_box_indices = set()
+        duration_regex = re.compile(r'\b(\d+\s*(?:months?|days?|years?)(?:\s+from\s+[\w\s]+)?)\b', re.IGNORECASE)
 
         for target_field, label_re in label_configs:
             for idx, box in enumerate(boxes):
                 text = box.get("text", "")
                 if label_re.search(text):
-                    # 1. Date in same box
+                    # 1. Date or duration in same box
                     d_match = date_regex.search(text)
+                    if not d_match and target_field == "BEST_BEFORE":
+                        d_match = duration_regex.search(text)
                     if d_match:
                         date_val = d_match.group(0)
                         raw_ocr_conf = float(box.get("confidence", 0.0))
@@ -335,6 +344,8 @@ class ModularFieldExtractors:
                     for ab in adj_boxes:
                         ab_text = ab.get("text", "")
                         ad_match = date_regex.search(ab_text)
+                        if not ad_match and target_field == "BEST_BEFORE":
+                            ad_match = duration_regex.search(ab_text)
                         if ad_match:
                             date_val = ad_match.group(0)
                             matched_boxes = [box, ab]
