@@ -1,0 +1,27 @@
+{
+  "product_id": "prod_07_glare_over_mrp",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Glossy Pouch",
+  "category": "Dry Fruits & Nuts",
+  "images": [
+    {
+      "image_id": "prod_07_front",
+      "file_name": "prod_07_glare_over_mrp.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "CASHEW NUT PACK",
+    "MRP": "\u20b9350.00",
+    "NET_QUANTITY": "250 g",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  }
+}

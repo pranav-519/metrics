@@ -1,0 +1,32 @@
+{
+  "product_id": "prod_04_tin",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Metallic Tin",
+  "category": "Confectionery & Bakery",
+  "images": [
+    {
+      "image_id": "prod_04_front",
+      "file_name": "prod_04_tin_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_04_back",
+      "file_name": "prod_04_tin_back.png",
+      "role": "back"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "ROYAL DANISH COOKIES",
+    "MRP": "\u20b9450.00",
+    "NET_QUANTITY": "400 g",
+    "MANUFACTURER": "Copenhagen Baking Co, DK-1000 Denmark",
+    "PACKER": null,
+    "IMPORTER": "Global Trade Importers India Ltd, Fort, Mumbai, Maharashtra - 400001",
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": "11/2025",
+    "EXPIRY_DATE": "11/2027",
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": "1800-888-3333, help@globaltrade.in",
+    "COUNTRY_OF_ORIGIN": "Denmark"
+  }
+}

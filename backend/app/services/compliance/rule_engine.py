@@ -42,7 +42,14 @@ class ComplianceEngine:
                 "source_ocr_ids": getattr(d, "source_ocr_ids", []) or [],
                 "bounding_box": getattr(d, "bounding_box", None),
             }
-            f_name = d_dict.get("field_name", "").upper()
+            f_name = (d.get("field_name") if isinstance(d, dict) else getattr(d, "field_name", "")).upper()
+            effective_status = (
+                (d.get("extraction_status") if isinstance(d, dict) else getattr(d, "extraction_status", None))
+                or (d.get("status") if isinstance(d, dict) else getattr(d, "status", None))
+                or "NOT_FOUND"
+            )
+            d_dict["extraction_status"] = effective_status
+            d_dict["status"] = effective_status
             if f_name:
                 decl_map[f_name] = d_dict
                 decl_map[f_name.lower()] = d_dict

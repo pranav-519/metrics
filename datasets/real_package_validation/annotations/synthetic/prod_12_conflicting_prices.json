@@ -1,0 +1,35 @@
+{
+  "product_id": "prod_12_conflicting_prices",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Plastic Pouch",
+  "category": "Snacks & Namkeen",
+  "images": [
+    {
+      "image_id": "prod_12_front",
+      "file_name": "prod_12_peanuts_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_12_back",
+      "file_name": "prod_12_peanuts_back.png",
+      "role": "back"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "SALTED ROASTED PEANUTS",
+    "MRP": "\u20b945.00",
+    "NET_QUANTITY": "200 g",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  },
+  "expected_failure_states": {
+    "MRP": "AMBIGUOUS"
+  }
+}

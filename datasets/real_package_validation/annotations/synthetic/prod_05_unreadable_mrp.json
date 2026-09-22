@@ -1,0 +1,30 @@
+{
+  "product_id": "prod_05_unreadable_mrp",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Plastic Pouch",
+  "category": "Tea & Coffee",
+  "images": [
+    {
+      "image_id": "prod_05_front",
+      "file_name": "prod_05_unreadable_mrp.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "ORGANIC GREEN TEA",
+    "MRP": "\u20b9199.00",
+    "NET_QUANTITY": "100 g",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  },
+  "expected_failure_states": {
+    "MRP": "UNABLE_TO_VERIFY"
+  }
+}

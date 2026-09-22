@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_02_carton",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Cardboard Carton",
+  "category": "Cosmetics & Personal Care",
+  "images": [
+    {
+      "image_id": "prod_02_front",
+      "file_name": "prod_02_carton_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_02_back",
+      "file_name": "prod_02_carton_back.png",
+      "role": "back"
+    },
+    {
+      "image_id": "prod_02_side",
+      "file_name": "prod_02_carton_side.png",
+      "role": "side"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "NIMBA HERBAL FACE WASH",
+    "MRP": "Rs. 299.00",
+    "NET_QUANTITY": "200 ml",
+    "MANUFACTURER": "Alpha Herbal Labs, Haridwar, Uttarakhand - 249401",
+    "PACKER": "Beta Pack Solutions, Okhla, New Delhi - 110020",
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "01/2026",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": "12/2027",
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": "contact@nimbaherbal.com, Toll Free 1800-999-4444",
+    "COUNTRY_OF_ORIGIN": "India"
+  }
+}

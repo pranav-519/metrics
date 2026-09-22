@@ -1,0 +1,512 @@
+{
+  "dataset_classification": "SYNTHETIC_CONTROLLED",
+  "dataset_directory": "C:\\Users\\ppran\\OneDrive\\Desktop\\MetriCheck\\datasets\\real_package_validation",
+  "total_products": 12,
+  "total_images": 20,
+  "synthetic_controlled": {
+    "products_count": 12,
+    "images_count": 20,
+    "field_metrics": {
+      "PRODUCT_NAME": {
+        "correct": 9,
+        "incorrect": 2,
+        "not_found": 1,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "MRP": {
+        "correct": 8,
+        "incorrect": 0,
+        "not_found": 2,
+        "unable_to_verify": 0,
+        "ambiguous": 1,
+        "low_confidence": 0,
+        "not_applicable": 1
+      },
+      "NET_QUANTITY": {
+        "correct": 11,
+        "incorrect": 0,
+        "not_found": 1,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "MANUFACTURER": {
+        "correct": 6,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 6
+      },
+      "PACKER": {
+        "correct": 1,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 11
+      },
+      "IMPORTER": {
+        "correct": 1,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 11
+      },
+      "MANUFACTURING_DATE": {
+        "correct": 4,
+        "incorrect": 0,
+        "not_found": 2,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 6
+      },
+      "PACKING_DATE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 1,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 11
+      },
+      "EXPIRY_DATE": {
+        "correct": 3,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 9
+      },
+      "BEST_BEFORE": {
+        "correct": 3,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 9
+      },
+      "CONSUMER_CARE": {
+        "correct": 5,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 7
+      },
+      "COUNTRY_OF_ORIGIN": {
+        "correct": 6,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 6
+      }
+    },
+    "status_distribution": {
+      "FOUND": 59,
+      "NOT_FOUND": 84,
+      "LOW_CONFIDENCE": 0,
+      "AMBIGUOUS": 1,
+      "UNABLE_TO_VERIFY": 0,
+      "REVIEW_REQUIRED": 4
+    }
+  },
+  "real_photo": {
+    "products_count": 0,
+    "images_count": 0,
+    "field_metrics": {
+      "PRODUCT_NAME": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "MRP": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "NET_QUANTITY": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "MANUFACTURER": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "PACKER": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "IMPORTER": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "MANUFACTURING_DATE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "PACKING_DATE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "EXPIRY_DATE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "BEST_BEFORE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "CONSUMER_CARE": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      },
+      "COUNTRY_OF_ORIGIN": {
+        "correct": 0,
+        "incorrect": 0,
+        "not_found": 0,
+        "unable_to_verify": 0,
+        "ambiguous": 0,
+        "low_confidence": 0,
+        "not_applicable": 0
+      }
+    },
+    "status_distribution": {
+      "FOUND": 0,
+      "NOT_FOUND": 0,
+      "LOW_CONFIDENCE": 0,
+      "AMBIGUOUS": 0,
+      "UNABLE_TO_VERIFY": 0,
+      "REVIEW_REQUIRED": 0
+    },
+    "status_note": "NOT EXECUTED \u2014 no genuine real-photo dataset supplied"
+  },
+  "ocr_confidence": {
+    "mean": 0.9929,
+    "median": 0.9966,
+    "min": 0.9201,
+    "max": 1.0
+  },
+  "spatial_evidence": {
+    "valid_count": 93,
+    "total_count": 93,
+    "valid_percentage": 100.0
+  },
+  "latency": {
+    "image_loading_ms": {
+      "mean": 0.09,
+      "p50": 0.08,
+      "p95": 0.11,
+      "min": 0.08,
+      "max": 0.11
+    },
+    "image_decoding_ms": {
+      "mean": 1.17,
+      "p50": 1.12,
+      "p95": 2.79,
+      "min": 0.7,
+      "max": 2.79
+    },
+    "preprocessing_ms": {
+      "mean": 7.46,
+      "p50": 3.5,
+      "p95": 83.14,
+      "min": 2.53,
+      "max": 83.14
+    },
+    "ocr_initialization_ms": {
+      "mean": 0.01,
+      "p50": 0.01,
+      "p95": 0.02,
+      "min": 0.0,
+      "max": 0.02
+    },
+    "ocr_inference_ms": {
+      "mean": 3504.62,
+      "p50": 2872.31,
+      "p95": 6676.03,
+      "min": 1165.31,
+      "max": 6676.03
+    },
+    "ocr_postprocessing_ms": {
+      "mean": 2.5,
+      "p50": 2.5,
+      "p95": 2.5,
+      "min": 2.5,
+      "max": 2.5
+    },
+    "retry_ms": {
+      "mean": 68.8,
+      "p50": 0.0,
+      "p95": 1376.05,
+      "min": 0.0,
+      "max": 1376.05
+    },
+    "extraction_ms": {
+      "mean": 0.44,
+      "p50": 0.23,
+      "p95": 3.31,
+      "min": 0.07,
+      "max": 3.31
+    },
+    "aggregation_ms": {
+      "mean": 0.18,
+      "p50": 0.16,
+      "p95": 0.31,
+      "min": 0.06,
+      "max": 0.31
+    },
+    "compliance_ms": {
+      "mean": 0.14,
+      "p50": 0.12,
+      "p95": 0.47,
+      "min": 0.1,
+      "max": 0.47
+    },
+    "persistence_ms": {
+      "mean": 0.19,
+      "p50": 0.18,
+      "p95": 0.33,
+      "min": 0.16,
+      "max": 0.33
+    },
+    "total_ms": {
+      "mean": 3585.59,
+      "p50": 2879.11,
+      "p95": 6685.41,
+      "min": 2012.92,
+      "max": 6685.41
+    },
+    "ocr_cold_start_ms": 3475.58,
+    "ocr_warm_inference_ms": 3506.29,
+    "ocr_average_inference_ms": 3504.62
+  },
+  "failure_cases": [
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_02_carton",
+      "image": "['prod_02_carton_front.png', 'prod_02_carton_back.png', 'prod_02_carton_side.png']",
+      "field": "MANUFACTURING_DATE",
+      "ground_truth": "01/2026",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [
+        "NIMBA HERBAL FACE WASH",
+        "Deep Cleansing Formula",
+        "Net Volume: 200 ml"
+      ],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_03_bottle",
+      "image": "['prod_03_bottle_front.png', 'prod_03_bottle_back.png']",
+      "field": "PRODUCT_NAME",
+      "ground_truth": "MANGO DELIGHT PULP",
+      "system_output": "100% Fruit Juice Beverage",
+      "expected_status": "FOUND",
+      "actual_status": "FOUND",
+      "ocr_text": [
+        "MANGO DELIGHT PULP",
+        "100% Fruit Juice Beverage",
+        "Net Quantity: 1 L"
+      ],
+      "confidence": 0.8499,
+      "failure_category": "EXTRACTION_FAILURE",
+      "likely_failure_point": "Value mismatch: expected 'MANGO DELIGHT PULP', extracted '100% Fruit Juice Beverage'.",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_04_tin",
+      "image": "['prod_04_tin_front.png', 'prod_04_tin_back.png']",
+      "field": "PACKING_DATE",
+      "ground_truth": "11/2025",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [
+        "ROYAL DANISH COOKIES",
+        "Traditional Butter Biscuit Selection",
+        "Net Weight: 400 g"
+      ],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_05_unreadable_mrp",
+      "image": "['prod_05_unreadable_mrp.png']",
+      "field": "PRODUCT_NAME",
+      "ground_truth": "ORGANIC GREEN TEA",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_05_unreadable_mrp",
+      "image": "['prod_05_unreadable_mrp.png']",
+      "field": "MRP",
+      "ground_truth": "\u20b9199.00",
+      "system_output": null,
+      "expected_status": "UNABLE_TO_VERIFY",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [],
+      "confidence": 0.0,
+      "failure_category": "EXTRACTION_FAILURE",
+      "likely_failure_point": "Failure state expectation mismatch",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_05_unreadable_mrp",
+      "image": "['prod_05_unreadable_mrp.png']",
+      "field": "NET_QUANTITY",
+      "ground_truth": "100 g",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "ERROR"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_07_glare_over_mrp",
+      "image": "['prod_07_glare_over_mrp.png']",
+      "field": "MRP",
+      "ground_truth": "\u20b9350.00",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [
+        "CASHEW NUT PACK",
+        "Premium Whole Grade W240",
+        "Net Weight: 250 g"
+      ],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "ERROR"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_08_price_distractors",
+      "image": "['prod_08_price_distractors.png']",
+      "field": "PRODUCT_NAME",
+      "ground_truth": "CRUNCHY OAT CEREAL",
+      "system_output": "Cashback Offer: Up to \u20b9100 inside wrapper",
+      "expected_status": "FOUND",
+      "actual_status": "FOUND",
+      "ocr_text": [
+        "CRUNCHY OAT CEREAL",
+        "SUPER SAVER OFFER! SAVE \u20b950 ON NEXT PACK",
+        "Cashback Offer: Up to \u20b9100 inside wrapper"
+      ],
+      "confidence": 0.8455,
+      "failure_category": "EXTRACTION_FAILURE",
+      "likely_failure_point": "Value mismatch: expected 'CRUNCHY OAT CEREAL', extracted 'Cashback Offer: Up to \u20b9100 inside wrapper'.",
+      "severity": "WARNING"
+    },
+    {
+      "dataset_type": "SYNTHETIC_CONTROLLED",
+      "product": "prod_11_coffee_distributed",
+      "image": "['prod_11_coffee_front.png', 'prod_11_coffee_back.png', 'prod_11_coffee_side.png']",
+      "field": "MANUFACTURING_DATE",
+      "ground_truth": "01/2026",
+      "system_output": null,
+      "expected_status": "FOUND",
+      "actual_status": "NOT_FOUND",
+      "ocr_text": [
+        "PREMIUM FILTER COFFEE",
+        "Net Weight: 500 g",
+        "MRP: \u20b9280.00 (Incl. of all taxes)"
+      ],
+      "confidence": 0.0,
+      "failure_category": "OCR_FAILURE",
+      "likely_failure_point": "Declaration was present in ground truth but not detected by OCR/extractor.",
+      "severity": "WARNING"
+    }
+  ]
+}

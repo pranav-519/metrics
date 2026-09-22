@@ -1,0 +1,32 @@
+{
+  "product_id": "prod_03_bottle",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Plastic PET Bottle",
+  "category": "Beverages",
+  "images": [
+    {
+      "image_id": "prod_03_front",
+      "file_name": "prod_03_bottle_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_03_back",
+      "file_name": "prod_03_bottle_back.png",
+      "role": "back"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "MANGO DELIGHT PULP",
+    "MRP": "\u20b999.00",
+    "NET_QUANTITY": "1 L",
+    "MANUFACTURER": "Fresh Beverages Pvt Ltd, Pune, MH - 411001",
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "02/2026",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": "6 Months from Mfd",
+    "CONSUMER_CARE": "1800-456-7890, support@freshbev.in",
+    "COUNTRY_OF_ORIGIN": "India"
+  }
+}

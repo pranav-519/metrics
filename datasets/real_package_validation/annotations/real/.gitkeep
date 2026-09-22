@@ -1,0 +1,2 @@
+# This directory is for ground-truth JSON annotations of genuine real-world package photographs.
+# Ground truth format follows datasets/real_package_validation/README.md with "dataset_type": "REAL_PHOTO".

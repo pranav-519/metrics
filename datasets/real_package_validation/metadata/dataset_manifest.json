@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0.0",
+  "framework": "MetriCheck Real Package Validation Framework",
+  "statutory_rules": "Legal Metrology (Packaged Commodities) Rules, 2011",
+  "supported_fields": [
+    "PRODUCT_NAME",
+    "MRP",
+    "NET_QUANTITY",
+    "MANUFACTURER",
+    "PACKER",
+    "IMPORTER",
+    "MANUFACTURING_DATE",
+    "PACKING_DATE",
+    "EXPIRY_DATE",
+    "BEST_BEFORE",
+    "CONSUMER_CARE",
+    "COUNTRY_OF_ORIGIN"
+  ],
+  "dataset_types": [
+    "REAL_PHOTO",
+    "SYNTHETIC_CONTROLLED",
+    "MIXED"
+  ],
+  "directories": {
+    "real_images": "images/real",
+    "synthetic_images": "images/synthetic",
+    "real_annotations": "annotations/real",
+    "synthetic_annotations": "annotations/synthetic"
+  }
+}

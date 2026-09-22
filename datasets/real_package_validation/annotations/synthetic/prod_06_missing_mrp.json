@@ -1,0 +1,30 @@
+{
+  "product_id": "prod_06_missing_mrp",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Paper / Poly Bag",
+  "category": "Staples & Flour",
+  "images": [
+    {
+      "image_id": "prod_06_front",
+      "file_name": "prod_06_missing_mrp.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "WHOLE WHEAT FLOUR",
+    "MRP": null,
+    "NET_QUANTITY": "5 kg",
+    "MANUFACTURER": "Golden Mills Ltd, Indore, MP - 452001",
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "02/2026",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": "India"
+  },
+  "expected_failure_states": {
+    "MRP": "NOT_FOUND"
+  }
+}

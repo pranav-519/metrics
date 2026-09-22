@@ -1,0 +1,32 @@
+{
+  "product_id": "prod_01_food_pouch",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Plastic Pouch",
+  "category": "Food & Grocery",
+  "images": [
+    {
+      "image_id": "prod_01_front",
+      "file_name": "prod_01_food_pouch_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_01_back",
+      "file_name": "prod_01_food_pouch_back.png",
+      "role": "back"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "ROYAL BASMATI RICE",
+    "MRP": "\u20b9149.00",
+    "NET_QUANTITY": "500 g",
+    "MANUFACTURER": "Royal Foods India Pvt Ltd, Plot 45, Sector 18, Gurugram, Haryana - 122015",
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "03/2026",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": "12 Months from Packaging",
+    "CONSUMER_CARE": "care@royalfoods.in, Tel: 1800-200-1122",
+    "COUNTRY_OF_ORIGIN": "India"
+  }
+}

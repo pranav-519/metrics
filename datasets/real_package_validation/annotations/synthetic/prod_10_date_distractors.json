@@ -1,0 +1,27 @@
+{
+  "product_id": "prod_10_date_distractors",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Glass Bottle Carton",
+  "category": "Ayurveda & Health",
+  "images": [
+    {
+      "image_id": "prod_10_front",
+      "file_name": "prod_10_date_distractors.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "AYURVEDIC HEALTH TONIC",
+    "MRP": "\u20b9185.00",
+    "NET_QUANTITY": "450 ml",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "04/2025",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": "04/2028",
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_11_coffee_distributed",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Vacuum Foil Pouch",
+  "category": "Coffee",
+  "images": [
+    {
+      "image_id": "prod_11_front",
+      "file_name": "prod_11_coffee_front.png",
+      "role": "front"
+    },
+    {
+      "image_id": "prod_11_back",
+      "file_name": "prod_11_coffee_back.png",
+      "role": "back"
+    },
+    {
+      "image_id": "prod_11_side",
+      "file_name": "prod_11_coffee_side.png",
+      "role": "side"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "PREMIUM FILTER COFFEE",
+    "MRP": "\u20b9280.00",
+    "NET_QUANTITY": "500 g",
+    "MANUFACTURER": "Malabar Coffee Co, Coorg, KA - 571201",
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": "01/2026",
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": "9 Months from Packaging",
+    "CONSUMER_CARE": "1800-425-9999, care@malabarcoffee.in",
+    "COUNTRY_OF_ORIGIN": "India"
+  }
+}

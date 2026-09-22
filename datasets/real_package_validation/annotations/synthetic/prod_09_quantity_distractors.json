@@ -1,0 +1,27 @@
+{
+  "product_id": "prod_09_quantity_distractors",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Cardboard Box",
+  "category": "Health Foods",
+  "images": [
+    {
+      "image_id": "prod_09_front",
+      "file_name": "prod_09_quantity_distractors.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "PROTEIN BARS MULTIPACK",
+    "MRP": "\u20b9360.00",
+    "NET_QUANTITY": "300 g",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  }
+}

@@ -84,7 +84,13 @@ def evaluate_mrp_value_valid(decl: Optional[Dict[str, Any]], all_decls: Dict[str
     ref = "Rule 6(1)(e), Legal Metrology (PC) Rules 2011"
     severity = "ERROR"
 
-    if not decl or decl.get("extraction_status") in ("NOT_FOUND", "AMBIGUOUS", "LOW_CONFIDENCE") or decl.get("has_conflict"):
+    extraction_st = (decl.get("extraction_status") or decl.get("status") or "NOT_FOUND") if decl else "NOT_FOUND"
+    if (
+        not decl
+        or not decl.get("detected_value")
+        or extraction_st in ("NOT_FOUND", "AMBIGUOUS", "LOW_CONFIDENCE", "UNABLE_TO_VERIFY")
+        or decl.get("has_conflict")
+    ):
         return EvaluatedRuleResult(
             rule_id=rule_id,
             field_name=field_name,
@@ -145,13 +151,19 @@ def evaluate_mrp_currency_valid(decl: Optional[Dict[str, Any]], all_decls: Dict[
     ref = "Rule 6(1)(e), Legal Metrology (PC) Rules 2011"
     severity = "ERROR"
 
-    if not decl or decl.get("extraction_status") in ("NOT_FOUND", "AMBIGUOUS") or decl.get("has_conflict"):
+    extraction_st = (decl.get("extraction_status") or decl.get("status") or "NOT_FOUND") if decl else "NOT_FOUND"
+    if (
+        not decl
+        or not decl.get("detected_value")
+        or extraction_st in ("NOT_FOUND", "AMBIGUOUS", "LOW_CONFIDENCE", "UNABLE_TO_VERIFY")
+        or decl.get("has_conflict")
+    ):
         return EvaluatedRuleResult(
             rule_id=rule_id,
             field_name=field_name,
             status="NOT_VERIFIABLE",
             severity=severity,
-            message="Currency cannot be verified because MRP declaration is not available or is conflicting.",
+            message="Currency cannot be verified because MRP declaration is not available, unreadable, or conflicting.",
             field_value=None,
             confidence=0.0,
             evidence=decl.get("evidence", {}) if decl else {},

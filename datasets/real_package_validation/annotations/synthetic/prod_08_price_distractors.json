@@ -1,0 +1,27 @@
+{
+  "product_id": "prod_08_price_distractors",
+  "dataset_type": "SYNTHETIC_CONTROLLED",
+  "package_material": "Carton Box",
+  "category": "Breakfast Cereals",
+  "images": [
+    {
+      "image_id": "prod_08_front",
+      "file_name": "prod_08_price_distractors.png",
+      "role": "front"
+    }
+  ],
+  "ground_truth": {
+    "PRODUCT_NAME": "CRUNCHY OAT CEREAL",
+    "MRP": "\u20b9199.00",
+    "NET_QUANTITY": "400 g",
+    "MANUFACTURER": null,
+    "PACKER": null,
+    "IMPORTER": null,
+    "MANUFACTURING_DATE": null,
+    "PACKING_DATE": null,
+    "EXPIRY_DATE": null,
+    "BEST_BEFORE": null,
+    "CONSUMER_CARE": null,
+    "COUNTRY_OF_ORIGIN": null
+  }
+}
